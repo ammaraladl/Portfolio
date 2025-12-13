@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience - Ammar Aladl</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">AE</div>
+        <div>
+            <ul class="Nav-links">
+                <li><a href="index.html#Home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html" class="active">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">AE</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="Experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="Projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Professional Experience</h1>
+        <div class="section-Experience">
+            <div class="Experience-details-container">
+                <div class="Experience-containers">
+                    <div class="Experience-container" onclick="expandText(this)">
+                        <div class="timeline-header">
+                            <h3>Saudi Water Authority, Ras Al Khair Plant & Khafji & 7 Reservoir and VDV's Projects</h3>
+                            <h4>Rafal Future Trading Co.</h4>
+                            <h5>Riyadh, Saudi Arabia</h5>
+                        </div>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Managed project documentation for major infrastructure projects, ensuring accurate filing,
+                            tracking, and
+                            compliance.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Prepared and maintained MIR, RFI, DTF, and MIS for timely submission and approval.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Supported planning activities by aligning documentation with Primavera project schedules.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Controlled document workflows, ensuring adherence to internal and regulatory requirements.
+                        </p>
+                        <div class="toggle-time">
+                            <span class="timeline-date">May 2024 - Nov 2025</span>
+                            <button class="toggle-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div class="Experience-container" onclick="expandText(this)">
+                        <h3>Low Current & Security Systems
+                        </h3>
+                        <h4>Future Tech Co.</h4>
+                        <h5>Riyadh, Saudi Arabia</h5>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Installed, configured, and commissioned Hikvision CCTV, Access Control, Intrusion
+                            Detection, and Mavili
+                            Fire Alarm systems for Bank Albilad branches, ATMs, and ATM vehicles.
+                        <p onclick="expandText(this)" class="hidden">
+                            - Led Dahua CCTV installation and commissioning for the Special Forces for Security and
+                            Protection
+                            project.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Installed and commissioned Gent Fire Alarm and Fire Fighting systems for the State
+                            Security Project.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Replaced Cisco switches and routers with Huawei devices for the Saudi Electric Company.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Installed and configured Bosch CCTV systems at ZATCA Jeddah Islamic Port and Al-Qassim
+                            Airport.
+                        </p>
+                        </p>
+                        <div class="toggle-time">
+                            <span class="timeline-date">Feb 2022 - Apr 2024</span>
+                            <button class="toggle-btn">Read More</button>
+                        </div>
+                    </div>
+                    <div class="Experience-container" onclick="expandText(this)">
+                        <h3>Freelancer</h3>
+                        <h5>Cairo, Egypt</h5>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Coded websites using HTML, CSS and JavaScript languages.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Redesigned the user interface of a legacy application, improving user satisfaction and
+                            reducing
+                            user complaints.
+                        </p>
+                        <p onclick="expandText(this)" class="hidden">
+                            - Implemented a new CSS framework, improving the consistency of the site's design and
+                            reducing CSS-related
+                            bugs.
+                        </p>
+                        <div class="toggle-time">
+                            <span class="timeline-date">Jan 2021 - May 2021</span>
+                            <button class="toggle-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="down arrow" class="arrow icon" onclick="location.href='Projects.html'" />
+    </section>
+    <footer>
+        <p>© 2025 Ammar Aladl. All Rights Reserved.</p>
+    </footer>
+    <script src=" script.js"></script>
+</body>
+
+</html>
