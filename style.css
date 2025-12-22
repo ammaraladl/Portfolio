@@ -70,10 +70,6 @@ a:hover {
   font-size: 2rem;
 }
 
-.logo:hover {
-  cursor: default;
-}
-
 /*Hamburger Menu*/
 
 #hamburger-nav {
@@ -507,6 +503,7 @@ section {
 }
 
 /* Project title */
+
 .Project-header {
   text-align: center;
   font-weight: bolder;
@@ -514,6 +511,7 @@ section {
 }
 
 /* Buttons */
+
 .Project-btn {
   display: flex;
   gap: 1rem;
