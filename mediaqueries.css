@@ -234,12 +234,7 @@
 
 
   .btn-container {
-    flex-direction: column;
     align-items: center;
-  }
-
-  .btn {
-    width: fit-content;
   }
 
   .project-card-title {
