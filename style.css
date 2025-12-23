@@ -445,6 +445,7 @@ section {
 
 .project-card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
   margin-top: 1rem;
