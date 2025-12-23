@@ -9,12 +9,15 @@
   }
 
   .project-card-container {
-    gap: 2rem;
+    margin-top: 1rem;
+    display: flex;
+
+    align-items: center;
   }
 
   .pic-project {
-    width: 220px;
-    height: 220px;
+    width: auto;
+    height: 120px;
   }
 }
 
@@ -45,7 +48,6 @@
 
   /* Stack home section */
   #Home {
-    flex-direction: column;
     text-align: center;
     gap: 2rem;
   }
@@ -68,6 +70,16 @@
     gap: 2rem;
   }
 
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-left {
+    display: flex;
+    justify-content: center;
+  }
+
   .about-containers {
     flex-direction: column;
   }
@@ -78,6 +90,24 @@
 
   .arrow {
     display: none;
+  }
+
+  .project-card-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pic-project {
+    height: 120px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  footer {
+    height: 2vh;
+    padding: 2rem;
   }
 
 }
@@ -136,13 +166,8 @@
     max-width: 360px;
   }
 
-  .pic-project {
-    width: 100%;
-    height: auto;
-  }
-
   .Experience-container {
-    margin: 1rem 0;
+    margin: 1rem auto;
   }
 
   .section__pic-container {
@@ -160,9 +185,9 @@
   }
 
   .toggle-btn {
-    margin-left: 0;
     display: flex;
     flex-direction: column;
+    width: fit-content;
   }
 
   footer {
@@ -203,18 +228,18 @@
 
   .toggle-btn {
     align-self: center;
-    margin-left: 0;
-    flex-direction: column;
+    width: fit-content;
+    font-size: small;
   }
 
 
   .btn-container {
     flex-direction: column;
-    width: 100%;
+    align-items: center;
   }
 
   .btn {
-    width: 100%;
+    width: fit-content;
   }
 
   .project-card-title {
@@ -238,11 +263,6 @@
 
   .arrow {
     display: none;
-  }
-
-  .toggle-btn {
-    align-self: center;
-    margin-left: 0;
   }
 
 }
