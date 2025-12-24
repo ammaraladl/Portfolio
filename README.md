@@ -21,13 +21,13 @@ This portfolio is a sleek, responsive website built with **HTML, CSS, and JavaSc
 
 Here are some snapshots of the portfolio:
 
-### Home / Landing Section
+### Home Section
 ![Home Section](assets/Screenshots/home.png)
 
 ### About / Skills Section
 ![About](assets/Screenshots/About.png)
 
-### Experience / Landing Section
+### Experience Section
 ![Home Section](assets/Screenshots/Experience.png)
 
 ### Projects Section
@@ -35,6 +35,7 @@ Here are some snapshots of the portfolio:
 
 ### (Responsive View)
 ![Mobile View](assets/Screenshots/Responsive.png)
+
 ### (Responsive View)
 ![Mobile View](assets/Screenshots/Responsive1.png)
 
@@ -50,13 +51,3 @@ This project was created using:
 - **Responsive Design Principles**
 
 No frameworks — just solid front-end fundamentals.
-
----
-
-## 🚀 How to Run Locally
-
-Want to view or edit the project locally? Just follow these steps:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ammaraladl/Portfolio.git
